@@ -1,0 +1,501 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+* {
+    font-family: 'Staatliches';
+    font-weight: 50;
+    
+
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0 auto;
+    
+}
+
+/* tete de page */
+header.header{
+    display: flex;
+    align-items: center;
+    
+   
+}
+
+header.header img {
+    width: 20px;
+    
+}
+
+section.top-page{
+    background: url('../images/curryaccueil2.png');
+    background-size: cover;
+    height: 105vh;
+    padding: 0px;
+    background-position: -1px;
+    
+    
+}
+
+/* page de bienvenue */
+
+
+
+
+.big-title{
+    color:white;
+    font-style: oblique;
+    font-size: 180px;
+    padding: 630px 5px;
+    
+    
+}
+
+.scroll-down {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    position:absolute;
+    bottom: 0px;
+    
+
+
+}
+
+/* menu de navigation */
+nav.nav  {
+    display: flex;
+    list-style: none;
+    margin-left: 30px;
+    justify-content: space-between;
+    width: 190px;
+    
+}
+nav.nav li a {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    text-decoration: none;
+    
+}
+
+
+/* best sells */
+
+.section-title {
+    font-size: 75px;
+    font-weight: 150px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    font-style: italic;
+    
+
+}
+
+.section-title::before {
+    content: "";
+    position:absolute;
+    background-color: rgb(253, 57, 8);
+    width: 50px;
+    height: 10px;
+    bottom: 0;
+}
+
+
+
+
+
+
+.wp1{
+    background-image: url(../images/currywp1.png);
+    background-position: right;
+    margin: 4px;
+    
+}
+.wp2{
+    background-image: url(../images/currywp2.jpg);
+    margin: 4px;
+    
+}
+.wp3{
+    background-image: url(../images/currywp3.jpg);
+    background-position: right;
+    margin: 4px;
+    
+}
+.wp4{
+    background-image: url(../images/currywptrop.png);
+    background-position: left;
+}
+
+
+
+.wp-details {
+    background-color: #ffffffdf;
+    background-position: right;
+    position: absolute;
+    bottom: 950px;
+    height: 500px;
+    color: rgb(0, 0, 0);
+}
+
+
+/* pied de page */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 100px;
+    font-weight: 700;
+
+}
+footer a.cgu {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+/*button download */
+
+
+.button1{
+    margin: 0px;
+    
+}
+
+.button2{
+    margin: 0px;
+}
+
+.button3{
+    margin: 0px;
+}
+.button50{
+    margin:0px;
+}
+
+.button50{
+    width: 250px;
+    margin-left: 820px;
+    height: 40px;
+    background-color: black;
+    color:whitesmoke;
+    border: 2px solid black;
+    text-align:center;
+    font-weight: 500;
+    font-size:22px;
+    border-radius: 5px;
+    
+    
+}
+
+.button50:hover{
+    background-color: transparent;
+    color: black;
+}
+
+.buttonkobe{
+    width: 250px;
+    margin-left: 850px;
+    height: 40px;
+    background-color: black;
+    color:whitesmoke;
+    border: 2px solid black;
+    text-align:center;
+    font-weight: 500;
+    font-size:22px;
+    border-radius: 5px;
+}
+
+.buttonkobe:hover{
+    background-color: transparent;
+    color: black;
+}
+    
+
+/* suite */
+
+.section-title{
+    font-size: 75px;
+    font-weight: 150px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    font-style: italic;
+    
+
+}
+
+.section-title::before {
+    content: "";
+    position:absolute;
+    background-color: rgb(253, 57, 8);
+    width: 50px;
+    height: 10px;
+    bottom: 0;
+}
+
+.best-item {
+    margin: 10px;
+
+}
+
+.best-Wallpaper{
+    background-color: white;
+    min-height: 900px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.best-Wallpaper2{
+    background-color: white;
+    min-height: 0px;
+    width: 1885px;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+
+
+.PC-Wallpaper {
+    background-size: cover;
+    background-position: center;
+    min-width: 470px;
+    height: 700px;
+    flex: 1;
+    position: relative;
+}
+
+.PC-Wallpaper1{
+    background-position: center;
+    min-width: 470px;
+    background-size: cover;
+    height: 700px;
+    flex: 1;
+    position: relative;
+
+}
+
+.PC-Wallpaperkobe{
+    background-position:center;
+    min-width: 1200px;
+    background-size: cover;
+    height: 1000px;
+    flex: 1;
+    margin: 80px;
+    position: relative;
+}
+/* attention faut que tu change en fonction de heiiin */
+.PC-Wallpaperkobe1{
+    background-position:center;
+    min-width: 900px;
+    background-size: cover;
+    height: 1000px;
+    flex: 1;
+    margin: 80px;
+    position: relative;
+    margin-block: 70px;
+
+}
+
+
+
+.wp5{
+    background-image: url(../images/currywp5.png);
+    background-position:center;
+    background-size: cover;
+    
+    
+}
+
+.wp6{
+    background-image: url(../images/currywp6\ \(2\).png);
+    background-position: right;
+    
+    
+}
+
+.wp7{
+    background-image:url(../images/currywp4.png);
+    
+    background-size: cover;
+
+}
+
+.wp8{
+    background-image: url(../images/currywp8.jpg);
+    background-position: center;
+    width: 1880px;
+}
+
+.wp-details2 {
+    background-color: #16e40fdf;
+    position: absolute;
+    bottom: 100px;
+    height: 500px;
+    color: rgb(0, 0, 0);
+}
+
+.PC-Wallpaper2 {
+    background-size: cover;
+    background-position: center;
+    min-width: 465px;
+    height: 700px;
+    flex: 1;
+    position: relative;
+}
+.PC-Wallpaper7{
+    background-size: cover;
+    background-position: 1000px;
+    min-width: 465px;
+    height: 700px;
+    flex: 1;
+    position: relative;
+}
+.best-item2{
+    margin: 0px;
+    
+}
+
+/* bouton */
+
+.button1{
+    width: 100px;
+    margin: 0px ;
+    height: 30px;
+    background-color: black;
+    color:whitesmoke;
+    border: 2px solid black;
+    text-align:right;
+    font-weight: 500;
+    font-size:22px;
+    border-radius: 5px;
+}
+.button1:hover{
+    background-color: transparent;
+    color: black;
+}
+
+.button2{
+    width: 100px;
+    height: 30px;
+    margin:540px;
+    background-color: black;
+    color: whitesmoke;
+    border: 2px solid black;
+    text-align:right;
+    font-weight: 500;
+    font-size:22px;
+    border-radius: 5px;
+}
+.button2:hover{
+    background-color: transparent;
+    color: black;
+}
+
+.button3{
+    width: 100px;
+    height: 30px;
+    margin:0px;
+    background-color: black;
+    color: whitesmoke;
+    border: 2px solid black;
+    text-align:right;
+    font-weight: 500;
+    font-size:22px;
+    border-radius: 5px;
+}
+.button3:hover{
+    background-color: transparent;
+    color: black;
+}
+
+.button4{
+    width: 100px;
+    height: 30px;
+    margin:375px;
+    background-color: black;
+    color: whitesmoke;
+    border: 2px solid black;
+    text-align:right;
+    font-weight: 500;
+    font-size:22px;
+    border-radius: 5px;
+}
+.button4:hover{
+    background-color: transparent;
+    color: black;
+}
+
+
+
+.button5{
+    width: 100px;
+    margin: 0px ;
+    height: 30px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border: 2px solid black;
+    text-align:right;
+    font-weight: 500;
+    font-size:22px;
+    border-radius: 5px;
+
+}
+.button5:hover{
+    background-color: transparent;
+    color: black;
+}
+
+.button6{
+    width: 100px;
+    margin: 382px ;
+    height: 30px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border: 2px solid black;
+    text-align:right;
+    font-weight: 500;
+    font-size:22px;
+    border-radius: 5px;
+
+}
+.button6:hover{
+    background-color: transparent;
+    color: black;
+}
+
+.button7{
+    width: 100px;
+    margin: 0px ;
+    height: 30px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border: 2px solid black;
+    text-align:right;
+    font-weight: 500;
+    font-size:22px;
+    border-radius: 5px;
+
+}
+.button7:hover{
+    background-color: transparent;
+    color: black;
+}
+
+.button8{
+    width: 100px;
+    margin: 382px ;
+    height: 30px;
+    background-color:black;
+    color: rgb(255, 255, 255);
+    border: 2px solid black;
+    text-align:right;
+    font-weight: 500;
+    font-size:22px;
+    border-radius: 5px;
+
+}
+.button8:hover{
+    background-color: transparent;
+    color: black;
+}

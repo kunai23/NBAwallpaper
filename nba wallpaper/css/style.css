@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+* {
+    font-family: 'Staatliches';
+    font-weight: 50;
+    
+
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0 auto;
+}
+/* tete de page */
+header.header{
+    display: flex;
+    align-items: center;
+    
+   
+}
+
+header.header img {
+    width: 20px;
+    
+}
+
+section.top-page{
+    background: url('../images/page\ accueil.webp');
+    background-size: cover;
+    height: 105vh;
+    padding: 5px;
+    
+}
+
+/* page de bienvenue */
+
+
+
+
+.big-title{
+    color:white;
+    font-size: 200px;
+    padding: 585px 390px;
+    
+    
+}
+
+.scroll-down {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    position:absolute;
+    bottom: 0px;
+    
+
+
+}
+
+/* menu de navigation */
+nav.nav  {
+    display: flex;
+    list-style: none;
+    margin-left: 850px;
+    justify-content: space-between;
+    width: 190px;
+    
+}
+nav.nav li a {
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    text-decoration: none;
+    
+}
+
+
+/* best sells */
+
+.section-title {
+    font-size: 75px;
+    font-weight: 150px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    font-style: italic;
+    
+
+}
+
+.section-title::before {
+    content: "";
+    position:absolute;
+    background-color: rgb(253, 57, 8);
+    width: 50px;
+    height: 10px;
+    bottom: 0;
+}
+
+.best-item {
+    margin: 50px;
+
+}
+
+.best-Wallpaper {
+    background-color: rgb(138, 85, 85);
+    min-height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.PC-Wallpaper {
+    background-size: cover;
+    background-position: center;
+    min-width: 450px;
+    height: 900px;
+    flex: 1;
+    position: relative;
+}
+.wp1{
+    background-image: url(../images/My\ project-1\ -\ Copie.png);
+}
+.wp2{
+    background-image: url(../images/Bryant-Kobe-NBA-Sports-Super-Star-iphone-8.jpg);
+}
+.wp3{
+    background-image: url(../images/vince.jpg);
+}
+.wp4{
+    background-image: url(../images/giannis\ 2.jpg);
+}
+
+.wp-details {
+    background-color: #ffffffdf;
+    position: absolute;
+    bottom: 952px;
+    height: 3px;
+    color: rgb(0, 0, 0);
+}
+.wp-name {
+    font-size: 25px;
+    font-weight: 500;
+    
+}
+
+/* pied de page */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 100px;
+    font-weight: 700;
+
+}
+footer a.cgu {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+/*button download */
+
+
+.button{
+    width: 100px;
+    margin: 0px 230px;
+    height: 30px;
+    background-color: orangered;
+    color: rgb(255, 255, 255);
+    border: 2px solid orangered;
+    text-align:right;
+    font-weight: 500;
+    font-size:22px;
+    border-radius: 5px;
+}
+.button:hover{
+    background-color: transparent;
+    color: orange;
+}
+
+.button2{
+    width: 100px;
+    margin: 0px 25px;
+    height: 30px;
+    background-color: orangered;
+    color: rgb(255, 255, 255);
+    border: 2px solid orangered;
+    text-align:right;
+    font-weight: 500;
+    font-size:22px;
+    border-radius: 5px;
+}
+.button2:hover{
+    background-color: transparent;
+    color: orange;
+}
+
+.button3{
+    width: 100px;
+    margin: 0px 345px;
+    height: 30px;
+    background-color: orangered;
+    color: rgb(255, 255, 255);
+    border: 2px solid orangered;
+    text-align:right;
+    font-weight: 500;
+    font-size:22px;
+    border-radius: 5px;
+}
+.button3:hover{
+    background-color: transparent;
+    color: orange;
+}
+
+.button4{
+    width: 100px;
+    margin: 0px 115px;
+    height: 30px;
+    background-color: orangered;
+    color: rgb(255, 255, 255);
+    border: 2px solid orangered;
+    text-align:right;
+    font-weight: 500;
+    font-size:22px;
+    border-radius: 5px;
+}
+.button4:hover{
+    background-color: transparent;
+    color: orange;
+}
+
